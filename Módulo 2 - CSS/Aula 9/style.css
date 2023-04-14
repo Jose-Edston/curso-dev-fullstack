@@ -1,0 +1,26 @@
+body{
+    background: #dfdfdf;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #FFFFFF;  
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1{
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100; /*Esse cara aqui faz o ajuste do tamanho das letras, ou seja, ele ajusta a "grossura" do negrito*/
+    letter-spacing: -1px; /*Esse cara aqui faz o ajuste do espaçamento entre as palavras, deixando elas mais juntas ou separadas*/
+}

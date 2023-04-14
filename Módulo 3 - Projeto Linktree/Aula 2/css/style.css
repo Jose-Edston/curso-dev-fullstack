@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(176deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100; /*Alterando a espeçura da fonte*/
+    font-size: 24px; /*Alterando o tamanho da fonte*/
+    margin-bottom: 2px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none; /*Retira a "bolinha" da lista*/
+    margin: 20px 0;
+}
+
+.social img{
+    width: 33px;
+}
+
+.link-list{
+    list-style: none;
+}
+
+.link-list li{
+    margin: 10px 20px;
+}    
+
+.link-list li a {
+    display: block; /* Para fazer que o padrão de "a href" que é INLINE (tudo na mesma linha) mude e fique corretinho*/
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.link-list li a span {
+    font-size: 14px;
+    color: rgb(192, 179, 179);
+    display: block;
+    margin-top: 10px;
+}
+
+/*FORMA QUE EU FIZ*/
+/* .container{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.link-list{
+    margin: 0 20px;
+    
+}
+
+.link-list li{
+    list-style: none;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 8px;
+    
+}
+
+.link-list h2{
+    color: rgb(54,77,204);
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.link-list h3{
+    color: rgb(192, 179, 179);
+    text-align: left;
+    padding: 15px 15px 5px;
+    font-size: 14px;
+} */

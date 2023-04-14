@@ -1,0 +1,17 @@
+body{
+    background-image: url(background.jpg); /*Serve para colocar imagem de fundo*/
+    background-repeat: no-repeat;  /*Para fazer a imagem não se repetir no fundo de tela*/
+    
+    /*Os números são a distância da esquerda e do topo*/
+    /* background-position: 100% 10%;  */
+
+    /*Dessa forma ele diz em que posição da tela ele vai ficar*/
+    background-position: right center;
+
+    background-size: cover; /*Para ele ocupar toda a tela*/
+    background-attachment: fixed; /*Para deixar ele fixo e não se mover, conforme se dá Scroll na Página*/
+}
+
+p{
+    color: #222222;
+}
